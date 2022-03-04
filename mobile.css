@@ -1,0 +1,65 @@
+@media screen and (min-width:375px) and (max-width:830px){
+
+    .program-text >h1{
+       
+        width: 421.7px;
+        height: 43.34px;
+        font-family: Roboto Slab;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 101.38%;
+   margin-bottom: 35px;
+
+}
+
+.programKurs-divs-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.programKurs-elemets{
+   
+    width: 185.92px;
+    height: 152.84px;  
+    background: #FFFFFF;
+    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+    border-radius: 13.9792px;
+
+
+}
+
+.pk-img{
+width: 185.92px;
+height: 74.56px;
+background-color: red;
+border-radius: 13.9792px;
+}
+
+.programKurs-elemets >h4{  width: 170.08px;
+    height: 18.17px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 130%;
+
+}
+
+.programKurs-elemets>p{
+
+    width: 170.08px;
+    height: 29.36px;
+    font-size: 12px;
+    line-height: 130%;
+  
+   
+}
+.pk-text{
+   display: flex;
+   flex-direction: column;
+  
+padding: 2px 3px;
+}
+
+}
