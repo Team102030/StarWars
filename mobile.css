@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;800;900&family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap');
+
+.first-container{
+    width: 375px;
+    
+
+}
+
+.first-logo img{
+    width: 53px;
+    height: 31px;
+
+
+
+}
+.first-icons{
+    display: flex;
+    width: 240px;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-size: 10px;
+    
+
+
+}
+.online-course,.date,.hours{
+    display: flex;
+    
+}
+.first-icons .image{
+    margin-right: 5px;
+}
+.first-h1{
+    width: 295px;
+    font-size: 37px;
+    font-family: Roboto Slab;
+    font-weight: bold;
+
+}
+.first-info{
+    width: 213px;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 400;
+    
+}
+.produser{
+    position: absolute;
+
+}
