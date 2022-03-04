@@ -48,3 +48,154 @@
     position: absolute;
 
 }
+@media screen and (min-width:375px) and (max-width:830px){
+
+    .program-text >h1{
+       
+        width: 421.7px;
+        height: 43.34px;
+        font-family: Roboto Slab;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 101.38%;
+   margin-bottom: 35px;
+
+}
+
+.programKurs-divs-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.programKurs-elemets{
+   
+    width: 185.92px;
+    height: 152.84px;  
+    background: #FFFFFF;
+    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+    border-radius: 13.9792px;
+
+
+}
+
+.pk-img{
+width: 185.92px;
+height: 74.56px;
+background-color: red;
+border-radius: 13.9792px;
+}
+
+.programKurs-elemets >h4{  width: 170.08px;
+    height: 18.17px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 130%;
+
+}
+
+.programKurs-elemets>p{
+
+    width: 170.08px;
+    height: 29.36px;
+    font-size: 12px;
+    line-height: 130%;
+  
+   
+}
+.pk-text{
+   display: flex;
+   flex-direction: column;
+  
+padding: 2px 3px;
+}
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width:375px) and (max-width:830px){
+    .third{
+        display: flex;
+    }
+    .format{
+        display: flex;
+        flex-direction: column;
+    }
+    .format-title{
+        width: 310.8px;
+        height: 43.34px;
+        font-family: Roboto Slab;
+        font-size: 26px;
+        font-weight: 900;
+        line-height: 101.38%;
+    }
+    .format-text{
+        display: flex;
+        flex-direction: column;
+    }
+    .vebinar-content{
+        color: #1E4681;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 130%;
+        width: 69.9px;
+        height: 18.17px;
+        margin-top: 16.66px;
+    }
+    .dostup-content{
+        color: #1E4681;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 130%;
+        width: 100px;
+        height: 18.17px;
+        margin-top: 10px;
+    }
+    .obsenie-content{
+        color: #1E4681;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 130%;
+        width: 69.9px;
+        height: 18.17px;
+        margin-top: 19px;
+    }
+    .vebinar-text{
+        width: 180px;
+        height: 48px;
+        font-family: Roboto;
+        font-size: 10px;
+        line-height: 130%;
+        color: #000;
+        margin-top: .83px;
+    }
+    .dostup-text{
+        width: 165px;
+        height: 51px;
+        color: #000;
+        font-size: 10px;
+        font-family: Roboto;
+        line-height: 130%;
+    }
+    .obsenie-text{
+        width: 159px;
+        height: 31px;
+        font-size: 10px;
+        line-height: 130%;
+        column-rule: #000;
+        font-family: Roboto;
+        margin-top: .83px;
+    }
+}

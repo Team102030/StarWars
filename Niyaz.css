@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+*{
+  box-sizing: border-box;
+}
+@media screen and (min-width: 375px) and (max-width:830px) {
+  body{
+    margin-left: 35px;
+    font-family: Roboto;
+  } 
+  .kurs{
+      display: flex;
+      justify-content:center; 
+      flex-direction: column;   
+    }
+  .kurs-main h1 {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 101.38%;
+  }
+  .kurs-text{
+    width: 309px;
+    height: 217px;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 12px;
+  }
+  .kurs-img{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: 160.29px;
+  }
+    
+
+  .kurs-bottom-text {
+    display: flex;
+    width: 220px;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-left: 0;
+    gap: 20px;
+  }
+  .kurs-bottom-text h3{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bold;
+  }
+  .kurs-bottom-text p{
+    font-size: 10px;
+    line-height: 13px;
+    width: 86px;
+    height: 28px;
+  }
+}
