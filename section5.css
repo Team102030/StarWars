@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width:320px) and (max-width:991px){
+    .section5{
+        display: flex;
+        background-color: #efefef;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+    }
+    .section5-title{
+        width: 68vw;
+
+    }
+    .section5-title h1{
+        font-family: Roboto Slab;
+        font-weight: 700;
+        color: #000;
+        font-size: 6.9vw;
+     
+    }
+    .section5-content{
+        display: flex;
+        flex-direction: column;
+        width: 81vw;
+        background-color: #fff;
+        box-shadow: 0.13vw 0.13vw 2.6vw rgba(0,0,0,0.25);
+        border-radius: 3.73vw;
+    }
+    .section5-txt{
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 2.6vw;
+        color: #000;
+        padding: 5vw 5.6vw 0 5.6vw;
+    }
+    .section5-down{
+        display: flex;
+        
+    }
+    .ekaterine-img{
+        width: 21vw;
+        height: 22.4vw;
+        margin: 5.6vw 5.7vw 3.5vw 3vw;
+    }
+    .section5-aside{
+        display: flex;
+        flex-direction: column;
+        margin: 10vw 7vww 12vw 3vw;
+    }
+    .section5asidetxt{
+        font-weight: 700;
+        font-size: 3.7vw;
+        width: 43vw;
+    }
+    .section5-aside {
+        padding: 10vw;
+    }
+    .section5-fb{
+        width: 3.976vw;
+        height: 4.5vw;
+    }
+}
