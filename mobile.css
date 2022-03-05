@@ -122,7 +122,11 @@ padding: 2px 3px;
     box-sizing: border-box;
 }
 
-@media screen and (min-width:375px) and (max-width:830px){
+@media screen and (min-width:320px) and (max-width:991px){
+    .third-container{
+        display: flex;
+        flex-direction: column;
+    }
     .third{
         display: flex;
     }
@@ -131,72 +135,99 @@ padding: 2px 3px;
         flex-direction: column;
     }
     .format-title{
-        width: 310.8px;
+        width: 100%;
         height: 43.34px;
         font-family: Roboto Slab;
-        font-size: 26px;
+        font-size: 1.625em;
         font-weight: 900;
         line-height: 101.38%;
     }
     .format-text{
         display: flex;
         flex-direction: column;
+        gap: 20px;
     }
     .vebinar-content{
         color: #1E4681;
         font-family: Roboto;
         font-weight: bold;
-        font-size: 12px;
+        font-size: 0.75em;
         line-height: 130%;
-        width: 69.9px;
+        width: 5%;
         height: 18.17px;
-        margin-top: 16.66px;
+        
+    }
+    .dostup{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
     }
     .dostup-content{
         color: #1E4681;
         font-family: Roboto;
         font-weight: bold;
-        font-size: 12px;
+        font-size: 0.75em;
         line-height: 130%;
-        width: 100px;
+        width: 5%;
         height: 18.17px;
-        margin-top: 10px;
+        
     }
     .obsenie-content{
         color: #1E4681;
         font-family: Roboto;
         font-weight: bold;
-        font-size: 12px;
+        font-size: 0.75em;
         line-height: 130%;
-        width: 69.9px;
+        width: 5%;
         height: 18.17px;
-        margin-top: 19px;
+        
     }
     .vebinar-text{
-        width: 180px;
+        width: 53%;
         height: 48px;
         font-family: Roboto;
-        font-size: 10px;
+        font-size: 0.625em;
         line-height: 130%;
         color: #000;
-        margin-top: .83px;
+        
     }
     .dostup-text{
-        width: 165px;
+        width: 53%;
         height: 51px;
         color: #000;
-        font-size: 10px;
+        font-size: 0.625em;
         font-family: Roboto;
         line-height: 130%;
     }
     .obsenie-text{
-        width: 159px;
+        width: 53%;
         height: 31px;
-        font-size: 10px;
+        font-size: 0.625em;
         line-height: 130%;
         column-rule: #000;
+        font-family: Roboto;  
+    }
+    
+    .etap-title{
+        width: 90%;
+        height: 43.34px;
+        margin: 0 2% 0 5%;
+    }
+    .etap-title h1{
+        font-family: Roboto Slab;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 26.36px;
+    }
+    .etap-list{
+        width: 100%;
+        height: 174px;
         font-family: Roboto;
-        margin-top: .83px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        margin: 0 2% 0 5%;
+        
     }
 }
 @media  screen and (min-width: 320px) and (max-width: 991px){
