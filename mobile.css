@@ -233,14 +233,13 @@ padding: 2px 3px;
 @media  screen and (min-width: 320px) and (max-width: 991px){
     .first{
         display: flex;
-        flex-direction: column;      
+        flex-direction: column;    
+        margin-left: 8vw;  
 
     }
     .first-container{
         width: 100%;
-        padding-left: 10%;
-        padding-right: 10%;
-        padding-top: 7%;
+       
         
     
     }
@@ -248,7 +247,7 @@ padding: 2px 3px;
     .first-logo img{
         width: 14vw;
         height: 8.2vw;
-        margin-top: 38px;
+        margin-top: 10vw;
     
     
     
@@ -256,27 +255,30 @@ padding: 2px 3px;
     .first-icons{
         display: flex;
         width: 100%;
-        gap: 10px;
+        gap: 15px;
         font-family: Roboto;
-        font-size: 70%;
+        font-size: 2.6vw;
         margin-top: 35px;
         
     
     
+    }
+    .first-icons img{
+        width: 2.6vw;
     }
     .online-course,.date,.hours{
         display: flex;
         
     }
     .first-icons .image{
-        margin-right: 5px;
+        margin-right: 1.1vw;
     }
     .first-h1{
         width: 77vw;
-        font-size: 2.25em;
+        font-size: 10vw;
         font-family: Roboto Slab;
         font-weight: bold;
-        margin-top: 10px;
+        margin-top: 2.3vw;
         
     
     }
@@ -285,7 +287,7 @@ padding: 2px 3px;
         font-family: Roboto;
         font-size: 2.7vw;
         font-weight: 400;
-        margin-top: 17px;
+        margin-top: 4vw;
         line-height: 150%;
         
     }
@@ -309,8 +311,8 @@ padding: 2px 3px;
         width: 60vw;
         color: white;
         margin-left: 3px;
-        margin-top: 38px;
-        padding:  10px 13px 25px 13px;
+        margin-top: 51px;
+        padding:  2.2vw 3vw 6.8vw 3vw;
     
     }
     .andrei{
@@ -328,6 +330,7 @@ padding: 2px 3px;
 
         font-family: Roboto Slab;
     }
+}
     .sixth{
         background-color: #9DC9C8;
         font-family: Roboto;
@@ -381,4 +384,4 @@ padding: 2px 3px;
         }
     
     }
-}
+
