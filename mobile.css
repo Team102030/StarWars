@@ -333,58 +333,59 @@ padding: 2px 3px;
 
         font-family: Roboto Slab;
     }
+
+.sixth{
+    background-color: #9DC9C8;
+    font-family: Roboto;
+    
+    padding-right: 15.5vw;
+    padding-top: 15.5vw;
+    padding-bottom: 16.5vw;
+    
+    }
+    
+        
+        
+        
+    .sixth-container{
+        margin-left: 15.2vw;
+        
+
+    }
+    .sixth-container h1{
+        width: 58.4vw;
+        
+        margin-bottom: 7.2vw;
+        font-size: 7vw;
+        font-family: Roboto Slab;
+    }
+    .fs-12{
+        font-size: 3.2vw;
+    }
+    .six-down{
+        font-size: 9.9vw;
+
+    }
+    .six-content{
+        display: flex;
+        gap: 8.3vw;
+        margin-top: 7vw;
+        
+
+
+    }
+    .w-140{
+        width: 37.3vw;
+    }
+    .six-content .fs-12{
+        margin-top: 1.1vw;
+    }
+    .six-right,.six-left{
+        display: flex;
+        flex-direction: column;
+        gap: 1.1vw;
+    }
 }
-    .sixth{
-        background-color: #9DC9C8;
-        font-family: Roboto;
-        margin-bottom: 16.5vw;
-        padding-right: 15.5vw;
-        padding-top: 15.5vw;
-        padding-bottom: 16.5vw;
-    
-    }
-    @media screen and (min-width:320px) and (max-width: 991px){
-        
-        
-        
-        .sixth-container{
-            margin-left: 15.2vw;
-            
-    
-        }
-        .sixth-container h1{
-            width: 58.4vw;
-            
-            margin-bottom: 7.2vw;
-            font-size: 7vw;
-            font-family: Roboto Slab;
-        }
-        .fs-12{
-            font-size: 3.2vw;
-        }
-        .six-down{
-            font-size: 9.9vw;
-    
-        }
-        .six-content{
-            display: flex;
-            gap: 8.3vw;
-            margin-top: 7vw;
-            
     
     
-        }
-        .w-140{
-            width: 37.3vw;
-        }
-        .six-content .fs-12{
-            margin-top: 1.1vw;
-        }
-        .six-right,.six-left{
-            display: flex;
-            flex-direction: column;
-            gap: 1.1vw;
-        }
-    
-    }
 

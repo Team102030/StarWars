@@ -137,6 +137,45 @@
 
         font-family: Roboto Slab;
     }
+    .sixth-container h1{
+        width: 55.2vw;
+        
+        margin-bottom: 7.2vw;
+        font-size: 3.8vw;
+        font-family: Roboto Slab;
+    }
+    .sixth-container{
+        padding-left: 8.4vw;
+    }
+    
+    .fs-12{
+        font-size: 1.7vw;
+    }
+    .six-down{
+        font-size: 5.6vw;
+
+    }
+    .six-content{
+        display: flex;
+        gap: 5vw;
+        margin-top: 3.7vw;
+        
+
+
+    }
+    .w-140{
+        width: 20.5vw;
+        font-size: 1.25vw;
+    }
+    .six-content .fs-12{
+        margin-top: 1.1vw;
+    }
+    .six-right,.six-left{
+        display: flex;
+        flex-direction: column;
+        gap: 1.1vw;
+    }
+
     
 
 }
