@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 @media screen and (min-width: 992px) and (max-width: 1279px) {
   .container {
     padding-left: 7%;
@@ -109,3 +110,182 @@
     line-height: 130%;
   }
 }
+=======
+@media screen and (min-width:992px) and (max-width:1279px){
+    .third-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .third{
+        display: flex;
+    }
+    .format-title{
+        width: 46%;
+        font-family: Robot Slab;
+        font-size: 2em;
+        font-weight: bold;
+        line-height: 101.38%;
+        color: #000;
+    }
+    .format-text{
+        display: flex;
+        width: 68%;
+        gap: 46px;
+    }
+    .vebinar-content{
+        color: #1e4681;
+        width: 4.36vw;
+    }
+}
+
+@media  screen and (min-width: 992px) and (max-width: 1279px){
+    .first{
+        display: flex;
+        flex-direction: column;  
+
+    }
+    .first-container{
+        width: 100%;
+        
+        
+    
+    }
+    
+    .first-logo img{
+        width: 7.8vw;
+        height: 4.6vw;
+        margin-top: 2.5vw;
+    
+    
+    
+    }
+    .first-icons{
+        display: flex;
+        gap: 30px;
+        font-family: Roboto;
+        font-size: 1.4vw;
+        width: 37vw;
+        margin-top: 5.7vw;
+        
+    
+    
+    }
+    .first-icons img{
+        width: 1.4vw;
+    }
+    .online-course,.date,.hours{
+        display: flex;
+        width: 33%;
+        
+    }
+    .first-icons .image{
+        margin-right: 0.7vw;
+    }
+    .first-h1{
+        width: 40vw;
+        font-size: 5.5vw;
+        font-family: Roboto Slab;
+        font-weight: bold;
+        margin-top: 0.9vw;
+        
+    
+    }
+    .first-info{
+        width: 32vw;
+        font-family: Roboto;
+        font-size: 1.4vw;
+        font-weight: 400;
+        margin-top: 1.7vw;
+        line-height: 150%;
+        
+    }
+    .produser-div{
+
+        height: 25vw;
+        width: 21vw;
+
+    
+    }
+    .produser-tablet{
+        display: flex;
+        gap: 13.7vw;
+    }
+
+
+    .produser-div img{
+        height: 100%;
+        width: 21vw;
+
+    }
+    .background-blue{
+        background-color: #1E4681;
+        width: 34vw;
+        color: white;
+        margin-top: 9vw;
+        
+        margin-left: 27vw;
+        padding:  1.3vw 1.5vw 4vw 1.3vw;
+    
+    }
+    .andrei{
+        margin-left: 14vw; 
+        width: 26vw;
+        margin-top: 9px;
+        font-size: 1.4vw;
+        font-family: Roboto;
+    
+    
+    }
+    .quote{
+        
+        font-size: 1.7vw;
+
+        font-family: Roboto Slab;
+    }
+    .sixth-container h1{
+        width: 55.4vw;
+        
+        margin-bottom: 3.6vw;
+        font-size: 3.8vw;
+        font-family: Roboto Slab;
+    }
+    .sixth-container{
+        padding-left: 5vw;
+    }
+    .fs-12{
+        font-size: 1.7vw;
+    }
+    .six-down{
+        font-size: 5vw;
+
+    }
+    .six-content{
+        display: flex;
+        gap: 5vw;
+        margin-top: 5vw;
+        
+
+
+    }
+    .w-140{
+        width: 22vw;
+    }
+    .six-content .fs-12{
+        margin-top: 1.1vw;
+    }
+    .six-right,.six-left{
+        display: flex;
+        flex-direction: column;
+        gap: 1.1vw;
+        width: 25vw;
+    }
+
+}
+    
+
+
+    
+
+
+
+>>>>>>> 3084d6945f450812ff0d39bdeed533e745153ba2

@@ -22,5 +22,159 @@
 
 
 
+    
+}
+@media screen and (min-width: 1280px){
+    .first{
+        display: flex;
+        flex-direction: column; 
+
+    }
+    .first-container{
+        width: 100%;
+        
+        
+    
+    }
+    
+    .first-logo img{
+        width: 100%;
+        height: 5vw;
+        margin-top: 1.4vw;
+        
+    
+    
+    
+    }
+    .first-logo{
+        width: 7.8vw;
+        height: 10vw;
+    }
+    
+    .first-icons{
+        display: flex;
+        gap: 45px;
+        width: 40vw;
+        font-family: Roboto;
+        font-size: 1.3vw;
+        margin-top: 6.9vw;
+        
+    
+    
+    }
+    .first-icons img{
+        width: 1.5vw;
+    }
+    .online-course,.date,.hours{
+        display: flex;
+        width: 10vw;
+        
+    }
+    .first-icons .image{
+        margin-right: 0.7vw;
+    }
+    .first-h1{
+        width: 40vw;
+        font-size: 5.6vw;
+        font-family: Roboto Slab;
+        font-weight: bold;
+        margin-top: 2vw;
+        
+    
+    }
+    .first-info{
+        width: 40vw;
+        font-family: Roboto;
+        font-size: 1.8vw;
+        font-weight: 400;
+        margin-top: 1.2vw;
+        line-height: 150%;
+        
+    }
+    .produser-div{
+
+        height: 25vw;
+        width: 26vw;
+        
+
+    
+    }
+    .produser-tablet{
+        display: flex;
+        gap: 14vw;
+    }
+
+
+    .produser-div img{
+        height: 100%;
+        width: 26vw;
+        
+
+    }
+    .background-blue{
+        background-color: #1E4681;
+        width: 34vw;
+        color: white;
+        margin-top: 12vw;
+        
+        margin-left: 20vw;
+        padding:  1.3vw 1.8vw 2vw 1.8vw;
+    
+    }
+    .andrei{
+        margin-left: 18vw; 
+        width: 26vw;
+        margin-top: 1.1vw;
+        font-size: 1.4vw;
+        font-family: Roboto;
+    
+    
+    }
+    .quote{
+        
+        font-size: 1.8vw;
+
+        font-family: Roboto Slab;
+    }
+    .sixth-container h1{
+        width: 55.2vw;
+        
+        margin-bottom: 7.2vw;
+        font-size: 3.8vw;
+        font-family: Roboto Slab;
+    }
+    .sixth-container{
+        padding-left: 8.4vw;
+    }
+    
+    .fs-12{
+        font-size: 1.7vw;
+    }
+    .six-down{
+        font-size: 5.6vw;
+
+    }
+    .six-content{
+        display: flex;
+        gap: 5vw;
+        margin-top: 3.7vw;
+        
+
+
+    }
+    .w-140{
+        width: 20.5vw;
+        font-size: 1.25vw;
+    }
+    .six-content .fs-12{
+        margin-top: 1.1vw;
+    }
+    .six-right,.six-left{
+        display: flex;
+        flex-direction: column;
+        gap: 1.1vw;
+    }
+
+    
 
 }

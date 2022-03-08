@@ -337,7 +337,6 @@ width: 30vw;
   }
   .kurs-main {
     display: flex;
-
     justify-content: space-between;
   }
   .kurs-main-info {
@@ -501,3 +500,286 @@ width: 30vw;
     justify-content: space-around;
   }
 }
+.pk-text{
+   display: flex;
+   flex-direction: column;
+  
+padding: 2px 3px;
+}
+
+}
+
+
+/* saleh css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width:320px) and (max-width:991px){
+    .third-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .third{
+        display: flex;
+    }
+    .format{
+        display: flex;
+        flex-direction: column;
+    }
+    .format-title{
+        width: 100%;
+        height: 43.34px;
+        font-family: Roboto Slab;
+        font-size: 1.625em;
+        font-weight: 900;
+        line-height: 101.38%;
+    }
+    .format-text{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .vebinar-content{
+        color: #1E4681;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 0.75em;
+        line-height: 130%;
+        width: 5%;
+        height: 18.17px;
+        
+    }
+    .dostup{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .dostup-content{
+        color: #1E4681;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 0.75em;
+        line-height: 130%;
+        width: 5%;
+        height: 18.17px;
+        
+    }
+    .obsenie-content{
+        color: #1E4681;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 0.75em;
+        line-height: 130%;
+        width: 5%;
+        height: 18.17px;
+        
+    }
+    .vebinar-text{
+        width: 53%;
+        height: 48px;
+        font-family: Roboto;
+        font-size: 0.625em;
+        line-height: 130%;
+        color: #000;
+        
+    }
+    .dostup-text{
+        width: 53%;
+        height: 51px;
+        color: #000;
+        font-size: 0.625em;
+        font-family: Roboto;
+        line-height: 130%;
+    }
+    .obsenie-text{
+        width: 53%;
+        height: 31px;
+        font-size: 0.625em;
+        line-height: 130%;
+        column-rule: #000;
+        font-family: Roboto;  
+    }
+    
+    .etap-title{
+        width: 90%;
+        height: 43.34px;
+        margin: 0 2% 0 5%;
+    }
+    .etap-title h1{
+        font-family: Roboto Slab;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 26.36px;
+    }
+    .etap-list{
+        width: 100%;
+        height: 174px;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        margin: 0 2% 0 5%;
+        
+    }
+}
+@media  screen and (min-width: 320px) and (max-width: 991px){
+    .first{
+        display: flex;
+        flex-direction: column;    
+
+    }
+    .first-container{
+        width: 100%;
+       
+        
+    
+    }
+    
+    .first-logo img{
+        width: 14vw;
+        height: 8.2vw;
+        margin-top: 10vw;
+    
+    
+    
+    }
+    .first-icons{
+        display: flex;
+        width: 100%;
+        gap: 15px;
+        font-family: Roboto;
+        font-size: 2.6vw;
+        margin-top: 35px;
+        
+    
+    
+    }
+    .first-icons img{
+        width: 2.6vw;
+    }
+    .online-course,.date,.hours{
+        display: flex;
+        
+    }
+    .first-icons .image{
+        margin-right: 1.1vw;
+    }
+    .first-h1{
+        width: 77vw;
+        font-size: 10vw;
+        font-family: Roboto Slab;
+        font-weight: bold;
+        margin-top: 2.3vw;
+        
+    
+    }
+    .first-info{
+        width: 55vw;
+        font-family: Roboto;
+        font-size: 2.7vw;
+        font-weight: 400;
+        margin-top: 4vw;
+        line-height: 150%;
+        
+    }
+    .produser-div{
+        position: relative;
+        left: 46vw;
+        height: 47vw;
+        width: 39vw;
+
+    
+    }
+
+
+    .produser-div img{
+        height: 100%;
+        width: 38vw;
+
+    }
+    .background-blue{
+        background-color: #1E4681;
+        width: 60vw;
+        color: white;
+        margin-left: 3px;
+        margin-top: 51px;
+        padding:  2.2vw 3vw 6.8vw 3vw;
+    
+    }
+    .andrei{
+        margin-left: 25vw; 
+        width: 26vw;
+        margin-top: 15px;
+        font-size: 2.7vw;
+        font-family: Roboto;
+    
+    
+    }
+    .quote{
+        
+        font-size: 2.6vw;
+
+        font-family: Roboto Slab;
+    }
+
+.sixth{
+    background-color: #9DC9C8;
+    font-family: Roboto;
+    
+    padding-right: 15.5vw;
+    padding-top: 15.5vw;
+    padding-bottom: 16.5vw;
+    
+    }
+    
+        
+        
+        
+    .sixth-container{
+        margin-left: 15.2vw;
+        
+
+    }
+    .sixth-container h1{
+        width: 58.4vw;
+        
+        margin-bottom: 7.2vw;
+        font-size: 7vw;
+        font-family: Roboto Slab;
+    }
+    .fs-12{
+        font-size: 3.2vw;
+    }
+    .six-down{
+        font-size: 9.9vw;
+
+    }
+    .six-content{
+        display: flex;
+        gap: 8.3vw;
+        margin-top: 7vw;
+        
+
+
+    }
+    .w-140{
+        width: 37.3vw;
+    }
+    .six-content .fs-12{
+        margin-top: 1.1vw;
+    }
+    .six-right,.six-left{
+        display: flex;
+        flex-direction: column;
+        gap: 1.1vw;
+    }
+}
+    
+    
+
