@@ -53,8 +53,8 @@
     
     .first-icons{
         display: flex;
-        gap: 45px;
-        width: 40vw;
+        width: 100%;
+        gap: 30px;
         font-family: Roboto;
         font-size: 1.3vw;
         margin-top: 6.9vw;
