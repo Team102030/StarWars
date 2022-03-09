@@ -6,37 +6,45 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} footer {
+} 
+  .container {
+    padding-left: 8.393vw;
+    padding-right: 8.393vw;
+    padding-top: 4vw;
+  }
+
+footer {
       background-color: black;
       color: white;
       display: flex;
       flex-direction: column;
       height: 32vw;
       min-height: 260px;
-      font-size: 2.9vw;
+      font-size: 2.5vw;
       position: relative;
     }
     .adress img{
-      width:1.9vw ;
+      width:1.1vw ;
       height: 1.9vw;
     }
     .adress{
       padding-top: 0.7vw;
       display: flex;
-      padding-right: 12.8vw;
+      padding-right: 7vw;
       flex-direction: column;
-      gap: 1.19vw;
+   
     }
 
     
-    .adress div{
+    .adress {
       display: flex;
-      gap: 1.6vw;
+  
     }
   
     .icon {
+      padding-left: -10px;
       display: flex;
-      gap: 1.8vw;
+      
       padding-top: 1.19vw;
     }
   
@@ -50,9 +58,9 @@
       bottom: 3vw;
       margin-left: 8.4vw;
     }
-    .logoimg{
-      width: 9vw;
-      height: 6vw;
+    .logo img{
+      width:3vw;
+      height: 3vw;
 
     }
     
@@ -60,20 +68,15 @@
     .footer-section {
       height: 90%;
       display: flex;
-      gap: 40vw;
+      justify-content: space-between;
       margin-left: 8.4vw;
-      margin-right: 10;
+      margin-right: 10vw;
       margin-top: 3.35vw;
     }
 
  
 
 
-  .container {
-    padding-left: 8.393vw;
-    padding-right: 8.393vw;
-    padding-top: 4vw;
-  }
 
   /* THIRD SECTION */
   .third-container {

@@ -30,63 +30,74 @@
     color: white;
     display: flex;
     flex-direction: column;
-    height: 28vw;
+    height: 32vw;
     min-height: 260px;
-    font-size: 1.25vw;
+    font-size: 2.5vw;
     position: relative;
   }
-  .adress img {
-    width: 1.9vw;
+  .adress img{
+    width:1.1vw ;
     height: 1.9vw;
   }
-  .adress {
+  .adress{
     padding-top: 0.7vw;
     display: flex;
-    padding-right: 12.8vw;
+    padding-right: 7vw;
     flex-direction: column;
-    gap: 1.19vw;
+ 
   }
 
-  .adress div {
+  
+  .adress {
     display: flex;
-    gap: 1.7vw;
+
   }
 
   .icon {
+    padding-left: -10px;
     display: flex;
-    gap: 1.7vw;
-    padding-top: 2vw;
+    
+    padding-top: 1.19vw;
   }
 
-  .icon > img {
-    height: 2.4vw;
-    width: 2.4vw;
+  .icon>img {
+    height:4vw;
+    width: 4vw;
+    padding-right: 1vw;
   }
 
   .author {
     position: absolute;
-    bottom: 2.7vw;
+    bottom: 3vw;
     margin-left: 8.4vw;
   }
-  .logo img {
-    width: 8vw;
-    height: 5vw;
+  .logo-img{
+    width:7.986vw;
+    height: 4.722vw;
+
   }
+  
 
   .footer-section {
     height: 90%;
     display: flex;
-    gap: 51vw;
+    justify-content: space-between;
     margin-left: 8.4vw;
-    margin-right: 12.84;
+    margin-right: 10vw;
     margin-top: 3.35vw;
   }
+
+ 
+  }
   .footer-mail {
-    width: 20vw;
+  height: 5vw;
+  width: 1.875vw;
   }
   .footer-phone {
     width: 20vw;
   }
+
+
 
   .first {
     display: flex;

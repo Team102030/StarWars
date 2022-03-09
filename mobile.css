@@ -236,7 +236,7 @@
     line-height: 130%;
   }
 
-  /* niyaz footer */
+
 
   footer {
     background-color: black;
@@ -260,6 +260,11 @@
   .adress {
     padding-bottom: 30px;
   }
+
+.adress >p >img{
+  height: 4vw;
+  display: inline-block;
+}
 
   .icon {
     display: flex;
