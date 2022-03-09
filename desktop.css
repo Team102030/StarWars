@@ -253,76 +253,63 @@
         box-sizing: border-box;
         padding: 0;
         margin: 0;
-
-    }
-
-    .kurs-container {
+        
+      }
+      .kurs-container {
         font-family: 'Roboto';
         width: 100%;
-
-    }
-
-    .kurs-header {
+      
+      }
+      .kurs-header {
         width: 100%;
         height: 6.5vw;
-    }
-
-    .kurs-header h1 {
+      }
+      .kurs-header h1{
         font-family: 'Roboto Slab';
         font-size: 3.8vw;
         line-height: 101.38%;
-    }
-
-    .kurs-main {
+      }
+      .kurs-main {
         display: flex;
         width: 100%;
         justify-content: space-between;
-    }
-
-    .kurs-main-info {
+      }
+      .kurs-main-info {
         width: 65vw;
         height: 100%;
-    }
-
-    .kurs-main-info p {
+      }
+      .kurs-main-info p {
         font-size: 1.6vw;
         line-height: 150%;
-    }
-
-    .kurs-img {
+      }
+      .kurs-img {
         width: 21.80vw;
-        height: 21.87vw;
-    }
-
-    .kurs-bottom {
+        height: 21.87vw; 
+      }
+      .kurs-bottom {
         display: flex;
-
-    }
-
-    .kurs-bottom-info {
-        margin-top: 20px;
+        justify-content: space-between;
+      }
+      .kurs-bottom-info {
+        margin-top:20px;
         padding: 10px;
-        padding-left: 4vw;
-    }
-
-    .kurs-bottom-info h3 {
+      }
+      .kurs-bottom-info h3{
         font-size: 1.7vw;
         line-height: 130%;
-    }
-
-    .kurs-bottom-info p {
+      }
+      .kurs-bottom-info p {
         margin-top: 5px;
         min-width: 100px;
         height: 2.7vw;
         font-size: 1.25vw;
         line-height: 130%;
-    }
-
-    .kurs-bottom-img {
+      }
+      .kurs-bottom-img {
         display: flex;
         width: 16.11vw;
         height: 14.09vw;
-    }
+      }
 
 
 
