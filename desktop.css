@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,900;1,600&family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
-* {
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
 @media screen and (min-width:1400) {
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+
     .program-text>h1 {
 
         width: 421.7px;
@@ -94,225 +94,410 @@
   
     }
 @media screen and (min-width: 1280px){
-    .first{
+    
+    .first {
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
 
     }
-    .first-container{
+
+    .first-container {
         width: 100%;
-        
-        
-    
+
+
+
     }
-    
-    .first-logo img{
+
+    .first-logo img {
         width: 100%;
         height: 5vw;
         margin-top: 1.4vw;
-        
-    
-    
-    
+
     }
-    .first-logo{
+
+    .first-logo {
         width: 7.8vw;
         height: 10vw;
     }
-    
-    .first-icons{
+
+    .first-icons {
         display: flex;
         width: 100%;
         gap: 30px;
         font-family: Roboto;
         font-size: 1.3vw;
         margin-top: 6.9vw;
-        
-    
-    
+
+
+
     }
-    .first-icons img{
+
+    .first-icons img {
         width: 1.5vw;
     }
-    .online-course,.date,.hours{
+
+    .online-course,
+    .date,
+    .hours {
         display: flex;
         width: 10vw;
-        
+
     }
-    .first-icons .image{
+
+    .first-icons .image {
         margin-right: 0.7vw;
     }
-    .first-h1{
+
+    .first-h1 {
         width: 40vw;
         font-size: 5.6vw;
         font-family: Roboto Slab;
         font-weight: bold;
         margin-top: 2vw;
-        
-    
+
+
     }
-    .first-info{
+
+    .first-info {
         width: 40vw;
         font-family: Roboto;
         font-size: 1.8vw;
         font-weight: 400;
         margin-top: 1.2vw;
         line-height: 150%;
-        
+
     }
-    .produser-div{
+
+    .produser-div {
 
         height: 25vw;
         width: 26vw;
-        
-
-    
     }
-    .produser-tablet{
+
+    .produser-tablet {
         display: flex;
         gap: 14vw;
     }
 
 
-    .produser-div img{
+    .produser-div img {
         height: 100%;
         width: 26vw;
-        
-
     }
-    .background-blue{
+
+    .background-blue {
         background-color: #1E4681;
         width: 34vw;
         color: white;
         margin-top: 12vw;
-        
         margin-left: 20vw;
-        padding:  1.3vw 1.8vw 2vw 1.8vw;
-    
+        padding: 1.3vw 1.8vw 2vw 1.8vw;
+
     }
-    .andrei{
-        margin-left: 18vw; 
+
+    .andrei {
+        margin-left: 18vw;
         width: 26vw;
         margin-top: 1.1vw;
         font-size: 1.4vw;
         font-family: Roboto;
-    
-    
     }
-    .quote{
-        
-        font-size: 1.8vw;
 
+    .quote {
+        font-size: 1.8vw;
         font-family: Roboto Slab;
     }
-    .sixth-container h1{
+
+    .sixth-container h1 {
         width: 55.2vw;
-        
         margin-bottom: 7.2vw;
         font-size: 3.8vw;
         font-family: Roboto Slab;
     }
-    .sixth-container{
+
+    .sixth-container {
         padding-left: 8.4vw;
     }
-    
-    .fs-12{
+
+    .fs-12 {
         font-size: 1.7vw;
     }
-    .six-down{
-        font-size: 5.6vw;
 
+    .six-down {
+        font-size: 5.6vw;
     }
-    .six-content{
+
+    .six-content {
         display: flex;
         gap: 5vw;
         margin-top: 3.7vw;
-        
-
-
     }
-    .w-140{
+
+    .w-140 {
         width: 20.5vw;
         font-size: 1.25vw;
     }
-    .six-content .fs-12{
+
+    .six-content .fs-12 {
         margin-top: 1.1vw;
     }
-    .six-right,.six-left{
+
+    .six-right,
+    .six-left {
         display: flex;
         flex-direction: column;
         gap: 1.1vw;
     }
 
-    
 
-}
-/*Saleh CSS*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+    /*Saleh CSS*/
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-@media screen and (min-width:1280px){
-    .section5{
+    .section5 {
         width: 100%;
         background-color: #efefef;
     }
-    .fifth-container{
+
+    .fifth-container {
         padding-top: 2vw;
     }
-    .section5-title{
+
+    .section5-title {
         width: 68vw;
         margin: 2.31vw 22vw 0 8.4vw;
     }
-    .section5-title h1{
+
+    .section5-title h1 {
         font-family: 'Roboto Slab';
         font-size: 3.8vw;
     }
-    .section5-content{
+
+    .section5-content {
         width: 54vw;
         background-color: #fff;
         height: 57vh;
         border-radius: 2vw;
-        box-shadow: 7vw 7vw 138vw rgba(0,0,0,0.25);
+        box-shadow: 7vw 7vw 13vw rgba(0,0,0,0.25);
         margin: 2.36vw 36vw 7.7vw 8.75vw;
         padding: 4vw 8vw 2vw 4vw;
     }
-    .section5txt{
+
+    .section5txt {
         font-family: 'Roboto';
         font-size: 1.3vw;
         width: 48vw;
         height: 45vh;
         font-weight: 400;
     }
-    .section5-down{
+
+    .section5-down {
         display: flex;
         justify-content: space-around;
         margin-left: 5vw;
     }
-    .ekaterina-img{
+
+    .ekaterina-img {
         width: 13vw;
         height: 21vh;
         margin: 4vw 2.1vw 9.7vw 10vw;
     }
-    .section5-aside{
+
+    .section5-aside {
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin-bottom: 5vw;
         gap: 10px;
     }
-    .section5-asidetxt{
+
+    .section5-asidetxt {
         width: 44vw;
         font-weight: 700;
         font-size: 2vw;
         font-weight: bold;
     }
-    .section5-fb{
+
+    .section5-fb {
         width: 2.2vw;
         height: 3.9vh;
     }
+
+
+
+    .third{
+        display: flex;
+    }
+    .format{
+        display: flex;
+        flex-direction: column;
+    }
+    .format-text{
+        display: flex;
+        gap: 13vw;
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+    }
+    .format-title{
+        width: 46vw;
+        font-weight: 700;
+        font-family: 'Roboto Slab';
+        font-size: 3.8vw;
+    }
+    .ft-content{
+        font-weight: 700;
+        font-family: 'Roboto';
+        font-size: 1.7vw;
+        color: #1e4681;
+    }
+    .ft-text{
+        width: 15vw;
+        font-family: 'Roboto';
+        font-size: 1.6vw;
+        width: 18vw;
+    }
+
+    .etap-title{
+        font-family: 'Roboto Slab';
+        font-weight: 700;
+        font-size: 3.8vw;
+        
+    }
+    .etap-list{
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 1.6vw;
+        width: 45vw;
+    }
+    /*Saleh*/
+
+    /* niyaz */
+    .kurs-wrapper {
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        
+      }
+      .kurs-container {
+        font-family: 'Roboto';
+        width: 100%;
+      
+      }
+      .kurs-header {
+        width: 100%;
+        height: 6.5vw;
+      }
+      .kurs-header h1{
+        font-family: 'Roboto Slab';
+        font-size: 3.8vw;
+        line-height: 101.38%;
+      }
+      .kurs-main {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+      }
+      .kurs-main-info {
+        width: 65vw;
+        height: 100%;
+      }
+      .kurs-main-info p {
+        font-size: 1.6vw;
+        line-height: 150%;
+      }
+      .kurs-img {
+        width: 21.80vw;
+        height: 21.87vw; 
+      }
+      .kurs-bottom {
+        display: flex;
+        justify-content: space-between;
+      }
+      .kurs-bottom-info {
+        margin-top:20px;
+        padding: 10px;
+      }
+      .kurs-bottom-info h3{
+        font-size: 1.7vw;
+        line-height: 130%;
+      }
+      .kurs-bottom-info p {
+        margin-top: 5px;
+        min-width: 100px;
+        height: 2.7vw;
+        font-size: 1.25vw;
+        line-height: 130%;
+      }
+      .kurs-bottom-img {
+        display: flex;
+        width: 16.11vw;
+        height: 14.09vw;
+      }
+
+
+
+    /* aysel css */
+    .section-program>h2 {
+        width: 524.15px;
+        height: 53.86px;
+        font-size: 3.819vw;
+        line-height: 101.38%;
+        padding-bottom: 8vw;
+        padding-left: 30px;
+    }
+
+    .kurs-programs {
+        display: flex;
+        align-items: center;
+        padding-left: 10%;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .kurs-programs-item {
+        width: 25%;
+        margin-bottom: 35px;
+        margin-right: 30px;
+        height: 22.778vw;
+        background: #ffffff;
+        box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+        border-radius: 2.083vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .kp-img {
+        width: 100%;
+        height: max-content;
+        border-radius: 2.083vw;
+    }
+
+    .kp-img>img {
+        width: 100%;
+    }
+
+    .kp-text {
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 6%;
+        padding-bottom: 10px;
+
+    }
+
+    .kp-text>h4 {
+        max-width: max-content;
+        height: 2.778vw;
+        font-size: 2.083vw;
+        line-height: 130%;
+    }
+
+    .kp-text>p {
+        padding-top: 3vw;
+        font-size: 1.736vw;
+        line-height: 130%;
+    }
+
 }
