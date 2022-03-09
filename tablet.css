@@ -6,7 +6,6 @@
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 @media screen and (min-width: 992px) and (max-width: 1279px) {
   .container {
     padding-left: 7%;
@@ -110,7 +109,6 @@
     line-height: 130%;
   }
 }
-=======
 @media screen and (min-width:992px) and (max-width:1279px){
     .third-container{
         display: flex;
@@ -167,7 +165,6 @@
         width: 37vw;
         margin-top: 5.7vw;
         
-    
     
     }
     .first-icons img{
@@ -288,4 +285,3 @@
 
 
 
->>>>>>> 3084d6945f450812ff0d39bdeed533e745153ba2
