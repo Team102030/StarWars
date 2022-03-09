@@ -25,6 +25,75 @@
     
 }
 @media screen and (min-width: 1280px){
+    footer {
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        height: 28vw;
+        min-height: 260px;
+        
+        font-size: 1.25vw;
+        position: relative;
+      }
+      .adress img{
+        width:1.9vw ;
+        height: 1.9vw;
+      }
+      .adress{
+        padding-top: 0.7vw;
+        display: flex;
+        padding-right: 12.8vw;
+        flex-direction: column;
+        gap: 1.19vw;
+      }
+    
+      
+      
+      .adress div{
+        display: flex;
+        gap: 1.7vw;
+      }
+    
+      .icon {
+        display: flex;
+        gap: 1.7vw;
+        padding-top: 2vw;
+      }
+    
+      .icon>img {
+        height: 2.4vw;
+        width: 2.4vw;
+      }
+    
+      .author {
+        position: absolute;
+        bottom: 2.7vw;
+        margin-left: 8.4vw;
+      }
+      .logoimg{
+        width: 8vw;
+        height: 5vw;
+  
+      }
+      
+    
+      .footer-section {
+        height: 90%;
+        display: flex;
+        gap: 51vw;
+        margin-left: 8.4vw;
+        margin-right: 12.84;
+        margin-top: 3.35vw;
+      }
+      .footer-mail{
+        width: 20vw;
+      }
+      .footer-phone{
+        width: 20vw;}
+  
+    }
+@media screen and (min-width: 1280px){
     .first{
         display: flex;
         flex-direction: column; 
