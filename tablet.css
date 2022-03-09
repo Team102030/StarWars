@@ -1,19 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
 
+@media screen and (min-width: 992px) and (max-width:1279px){
+ 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-@media screen and (min-width: 992px) and (max-width:1279px){
-  footer {
+} footer {
       background-color: black;
       color: white;
       display: flex;
       flex-direction: column;
       height: 32vw;
       min-height: 260px;
-      
       font-size: 2.9vw;
       position: relative;
     }
@@ -28,8 +27,7 @@
       flex-direction: column;
       gap: 1.19vw;
     }
-  
-    
+
     
     .adress div{
       display: flex;
@@ -68,14 +66,8 @@
       margin-top: 3.35vw;
     }
 
-  }
+ 
 
-@media screen and (min-width: 992px) and (max-width: 1279px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
 
   .container {
     padding-left: 8.393vw;
@@ -281,7 +273,6 @@
 
   } */
 
-  .produser-tablet 
     /* display: flex; */
     /* width: 100%; */
   
@@ -316,6 +307,13 @@
     font-family: Roboto Slab;
   }
 
+  .sixth {
+    background-color: #9dc9c8;
+    font-family: Roboto;
+    height: 53.957vw;
+  }
+
+
   .sixth-container h1 {
     width: 55.4vw;
     margin-bottom: 3.6vw;
@@ -324,7 +322,9 @@
   }
 
   .sixth-container {
-    padding-left: 5vw;
+    padding-top: 12.350vw;
+    padding-left:8.393vw ;
+    padding-bottom: 11vw;
   }
 
   .fs-12 {
@@ -811,30 +811,25 @@
 
   }
 
-  /* .produser-div {
-    /* display: flex; */
-    /* padding-left: -100vw; */
 
-  } */
 
-  /* .produser-tablet {
+  .produser-tablet {
     display: flex;
-    gap: 13.7vw; */
+    gap: 13.7vw; 
 
-  
+  }
 
 
-  /* .produser-div img {
+   .produser-div img {
     height: 100%;
     width: 21vw;
-  } */
+  } 
 
   .background-blue {
     background-color: #1E4681;
     width: 34vw;
     color: white;
     margin-top: 9vw;
-
     margin-left: 27vw;
     padding: 1.3vw 1.5vw 4vw 1.3vw;
 
@@ -857,4 +852,60 @@
     font-family: Roboto Slab;
   }
 
+  .section5{
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  
+}
+.section5-title{
+    width: 68vw;
+    margin: 6.3vw 22vw 0 8vw;
+}
+.section5-title h1{
+    font-family: 'Roboto Slab';
+    font-size: 3.8vw;
+    font-weight: 700;
+}
+.section5-content{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 54vw;
+    box-shadow: 0.06vw 0.06vw 1.37vw rgba(0,0,0,0.25);
+    border-radius: 2vw;
+    margin: 2.2vw 36vw 7.6vw 8.6vw;
+}
+.section5-txt{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.4vw;
+    padding: 2vw 2.6vw 0 2.6vw;
+}
+.section5-down{
+    display: flex;
+    gap: 3vw;
+}
+.ekaterina-img{
+    width: 13vw;  
+}
+.section5-aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vw;
+}
+.section5-asidetxt{
+    font-weight: 700;
+    font-size: 2vw;
+    font-family: 'Roboto Slab';
+    width: 24vw;
+    
+}
+.section5-fb{
+    width: 2.1vw;
+    
+}
 
+}
