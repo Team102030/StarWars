@@ -16,14 +16,13 @@
     }
     .section5-title{
         width: 68vw;
-
+        margin: 13.125vw 25.9375vw 3.4375vw 11.25vw;
     }
     .section5-title h1{
-        font-family: Roboto Slab;
+        font-family: 'Roboto Slab';
         font-weight: 700;
         color: #000;
         font-size: 6.9vw;
-     
     }
     .section5-content{
         display: flex;
@@ -32,9 +31,10 @@
         background-color: #fff;
         box-shadow: 0.13vw 0.13vw 2.6vw rgba(0,0,0,0.25);
         border-radius: 3.73vw;
+        margin: 0 10vw 16.5625vw 11.25vw;
     }
     .section5-txt{
-        font-family: Roboto;
+        font-family: 'Roboto';
         font-weight: 400;
         font-size: 2.6vw;
         color: #000;
@@ -42,7 +42,7 @@
     }
     .section5-down{
         display: flex;
-        
+        justify-content: space-around;
     }
     .ekaterine-img{
         width: 21vw;
@@ -52,12 +52,12 @@
     .section5-aside{
         display: flex;
         flex-direction: column;
-        margin: 10vw 7vww 12vw 3vw;
+        gap: 15px;
     }
     .section5asidetxt{
         font-weight: 700;
         font-size: 3.7vw;
-        width: 43vw;
+       
     }
     .section5-aside {
         padding: 10vw;

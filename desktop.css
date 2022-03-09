@@ -178,3 +178,72 @@
     
 
 }
+/*Saleh CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width:1280px){
+    .section5{
+        width: 100%;
+        background-color: #efefef;
+    }
+    .fifth-container{
+        padding-top: 2vw;
+    }
+    .section5-title{
+        width: 68vw;
+        margin: 2.31vw 22vw 0 8.4vw;
+    }
+    .section5-title h1{
+        font-family: 'Roboto Slab';
+        font-size: 3.8vw;
+    }
+    .section5-content{
+        width: 54vw;
+        background-color: #fff;
+        height: 57vh;
+        border-radius: 2vw;
+        box-shadow: 7vw 7vw 138vw rgba(0,0,0,0.25);
+        margin: 2.36vw 36vw 7.7vw 8.75vw;
+        padding: 4vw 8vw 2vw 4vw;
+    }
+    .section5txt{
+        font-family: 'Roboto';
+        font-size: 1.3vw;
+        width: 48vw;
+        height: 45vh;
+        font-weight: 400;
+    }
+    .section5-down{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 5vw;
+    }
+    .ekaterina-img{
+        width: 13vw;
+        height: 21vh;
+        margin: 4vw 2.1vw 9.7vw 10vw;
+    }
+    .section5-aside{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 5vw;
+        gap: 10px;
+    }
+    .section5-asidetxt{
+        width: 44vw;
+        font-weight: 700;
+        font-size: 2vw;
+        font-weight: bold;
+    }
+    .section5-fb{
+        width: 2.2vw;
+        height: 3.9vh;
+    }
+}
