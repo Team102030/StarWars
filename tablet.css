@@ -405,8 +405,56 @@
           width: 16.11vw;
           height: 14.09vw;
         }
+        /*Saleh Css*/
+       
 
+
+    .third{
+        display: flex;
     }
+    .format{
+        display: flex;
+        flex-direction: column;
+    }
+    .format-text{
+        display: flex;
+        gap: 13vw;
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+    }
+    .format-title{
+        width: 46vw;
+        font-weight: 700;
+        font-family: 'Roboto Slab';
+        font-size: 3.8vw;
+    }
+    .ft-content{
+        font-weight: 700;
+        font-family: 'Roboto';
+        font-size: 1.7vw;
+        color: #1e4681;
+    }
+    .ft-text{
+        width: 20vw;
+        font-family: 'Roboto';
+        font-size: 1.3vw;
+        width: 18vw;
+    }
+
+    .etap-title{
+        font-family: 'Roboto Slab';
+        font-weight: 700;
+        font-size: 3.8vw;
+        
+    }
+    .etap-list{
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 1.6vw;
+        width: 45vw;
+    }
+}
+
     
 
 
