@@ -13,748 +13,19 @@
     padding-top: 4vw;
   }
 
-footer {
-      background-color: black;
-      color: white;
-      display: flex;
-      flex-direction: column;
-      height: 32vw;
-      min-height: 260px;
-      font-size: 2.5vw;
-      position: relative;
-    }
-    .adress img{
-      width:1.1vw ;
-      height: 1.9vw;
-    }
-    .adress{
-      padding-top: 0.7vw;
-      display: flex;
-      padding-right: 7vw;
-      flex-direction: column;
-   
-    }
 
-    
-    .adress {
-      display: flex;
-  
-    }
-  
-    .icon {
-      padding-left: -10px;
-      display: flex;
-      
-      padding-top: 1.19vw;
-    }
-  
-    .icon>img {
-      height: 2.4vw;
-      width: 2.4vw;
-    }
-  
-    .author {
-      position: absolute;
-      bottom: 3vw;
-      margin-left: 8.4vw;
-    }
-    .logo img{
-      width:3vw;
-      height: 3vw;
 
-    }
-    
-  
-    .footer-section {
-      height: 90%;
-      display: flex;
-      justify-content: space-between;
-      margin-left: 8.4vw;
-      margin-right: 10vw;
-      margin-top: 3.35vw;
-    }
+  /* first section  */
 
- 
-
-
-
-  /* THIRD SECTION */
-  .third-container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .third {
-    display: flex;
-  }
-
-  .format-title {
-    width: 46%;
-    font-family: Robot Slab;
-    font-size: 2em;
-    font-weight: bold;
-    line-height: 101.38%;
-    color: #000;
-  }
-
-  .format-text {
-    display: flex;
-    width: 68%;
-    gap: 46px;
-  }
-
-  .vebinar-content {
-    color: #1e4681;
-    width: 4.36vw;
-  }
-
-  /* AYSEL SECTION */
-
-  .section-program>h2 {
-    width: 524.15px;
-    height: 53.86px;
-    font-size: 32px;
-    line-height: 101.38%;
-    padding-bottom: 75px;
-    padding-left: 30px;
-  }
-
-  .kurs-programs {
-    display: flex;
-    align-items: center;
-    padding-left: 10%;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-
-  .kurs-programs-item {
-
-    width: 25%;
-    margin-bottom: 35px;
-    margin-right: 30px;
-    height: 20vw;
-    background: #ffffff;
-    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
-    border-radius: 13.9792px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .kp-img {
-    width: 100%;
-    height: 92.67px;
-    border-radius: 17.375px;
-  }
-
-  .kp-img>img {
-    width: 100%;
-  }
-
-  .kp-text {
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 6%;
-
-    padding-bottom: 5px;
-  }
-
-  .kp-text>h4 {
-    max-width: max-content;
-    width: 220px;
-    height: 22.59px;
-    font-size: 17px;
-    line-height: 130%;
-  }
-
-  .kp-text>p {
-    width: 211.4px;
-    height: 36.49px;
-    font-size: 14px;
-    line-height: 130%;
-  }
-
-
-  .third-container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .third {
-    display: flex;
-  }
-
-  .format-title {
-    width: 46%;
-    font-family: Robot Slab;
-    font-size: 2em;
-    font-weight: bold;
-    line-height: 101.38%;
-    color: #000;
-  }
-
-  .format-text {
-    display: flex;
-    width: 68%;
-    gap: 46px;
-  }
-
-  .vebinar-content {
-    color: #1e4681;
-    width: 4.36vw;
-  }
-
-
-  /* 
-  .first {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .first-container {
-    width: 100%;
-  }
-
-  .first-logo img {
-    width: 7.8vw;
-    height: 4.6vw;
-    margin-top: 2.5vw;
-
-  }
-
-  .first-icons {
-    display: flex;
-    gap: 30px;
-    font-size: 1.4vw;
-    width: 37vw;
-    margin-top: 5.7vw;
-
-  }
-
-  .first-icons img {
-    width: 1.4vw;
-  }
-
-  .online-course,
-  .date,
-  .hours {
-    display: flex;
-    width: 33%;
-
-  }
-
-  .first-icons .image {
-    margin-right: 0.7vw;
-  }
-
-  .first-h1 {
-    width: 40vw;
-    font-size: 5.5vw;
-    font-family: Roboto Slab;
-    font-weight: bold;
-    margin-top: 0.9vw;
-
-  }
-
-  .first-info {
-    width: 32vw;
-    font-family: Roboto;
-    font-size: 1.4vw;
-    font-weight: 400;
-    margin-top: 1.7vw;
-    line-height: 150%;
-
-  }
-
-  .produser-div {
-    height: 25vw;
-    width: 21vw;
-    background-image: url(./images/produsser.svg);
-
-  } */
-
-    /* display: flex; */
-    /* width: 100%; */
-  
-
-
-  /* .produser-div img {
-    height: 100%;
-    width: 21vw;
-  } */
-
-  .background-blue{
-    background-color: #1E4681;
-    width: 34vw;
-    color: white;
-    margin-top: 9vw;
-    margin-left: 27vw;
-    padding: 1.3vw 1.5vw 4vw 1.3vw;
-
-  }
-
-  .andrei {
-    margin-left: 14vw;
-    width: 26vw;
-    margin-top: 9px;
-    font-size: 1.4vw;
-    font-family: Roboto;
-
-  }
-
-  .quote {
-    font-size: 1.7vw;
-    font-family: Roboto Slab;
-  }
-
-  .sixth {
-    background-color: #9dc9c8;
-    font-family: Roboto;
-    height: 53.957vw;
-  }
-
-
-  .sixth-container h1 {
-    width: 55.4vw;
-    margin-bottom: 3.6vw;
-    font-size: 3.8vw;
-    font-family: Roboto Slab;
-  }
-
-  .sixth-container {
-    padding-top: 12.350vw;
-    padding-left:8.393vw ;
-    padding-bottom: 11vw;
-  }
-
-  .fs-12 {
-    font-size: 1.7vw;
-  }
-
-  .six-down {
-    font-size: 5vw;
-
-  }
-
-  .six-content {
-    display: flex;
-    gap: 5vw;
-    margin-top: 5vw;
-  }
-
-  .w-140 {
-    width: 22vw;
-  }
-
-  .six-content .fs-12 {
-    margin-top: 1.1vw;
-  }
-
-  .six-right,
-  .six-left {
-    display: flex;
-    flex-direction: column;
-    gap: 1.1vw;
-    width: 25vw;
-  }
-
-  .kurs-wrapper {
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-
-  }
-
-  .kurs-container {
-    font-family: 'Roboto';
-    width: 100%;
-
-  }
-
-  .kurs-header {
-    width: 100%;
-    height: 5.2vw;
-  }
-
-  .kurs-header h1 {
-    font-family: 'Roboto Slab';
-    font-size: 3.1vw;
-    line-height: 102%;
-  }
-
-  .kurs-main {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-  }
-
-  .kurs-main-info {
-    width: 60vw;
-    height: 100%;
-
-  }
-
-  .kurs-main-info p {
-    font-size: 1.4vw;
-    line-height: 150%;
-  }
-
-  .kurs-img {
-    width: 20.62vw;
-    height: 19.42vw;
-  }
-
-  .kurs-bottom {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .kurs-bottom-info {
-    margin-top: 20px;
-    padding: 10px;
-  }
-
-  .kurs-bottom-info h3 {
-    font-size: 1.6vw;
-    line-height: 130%;
-  }
-
-  .kurs-bottom-info p {
-    margin-top: 5px;
-    min-width: 100px;
-    height: 18px;
-    font-size: 1.43vw;
-    line-height: 130%;
-  }
-
-  .kurs-bottom-img {
-    display: flex;
-    width: 16.11vw;
-    height: 14.09vw;
-  }
-
-
-  .kurs-wrapper {
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-
-  }
-
-  .w-140 {
-    width: 22vw;
-  }
-
-  .six-content .fs-12 {
-    margin-top: 1.1vw;
-  }
-
-  .six-right,
-  .six-left {
-    display: flex;
-    flex-direction: column;
-    gap: 1.1vw;
-    width: 25vw;
-  }
-
-  .kurs-wrapper {
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-
-  }
-
-  .kurs-container {
-    font-family: 'Roboto';
-    width: 100%;
-
-  }
-
-  .kurs-header {
-    width: 100%;
-    height: 5.2vw;
-  }
-
-  .kurs-header h1 {
-    font-family: 'Roboto Slab';
-    font-size: 3.1vw;
-    line-height: 102%;
-  }
-
-  .kurs-main {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-  }
-
-  .kurs-main-info {
-    width: 60vw;
-    height: 100%;
-
-  }
-
-  .kurs-main-info p {
-    font-size: 1.4vw;
-    line-height: 150%;
-  }
-
-  .kurs-img {
-    width: 20.62vw;
-    height: 19.42vw;
-  }
-
-  .kurs-bottom {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .kurs-bottom-info {
-    margin-top: 20px;
-    padding: 10px;
-  }
-
-  .kurs-bottom-info h3 {
-    font-size: 1.6vw;
-    line-height: 130%;
-  }
-
-  .kurs-bottom-info p {
-    margin-top: 5px;
-    min-width: 100px;
-    height: 18px;
-    font-size: 1.43vw;
-    line-height: 130%;
-  }
-
-  .kurs-bottom-img {
-    display: flex;
-    width: 16.11vw;
-    height: 14.09vw;
-  }
-
-
-  .kurs-wrapper {
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-
-  }
-
-  .kurs-container {
-    font-family: 'Roboto';
-    width: 100%;
-
-  }
-
-  .kurs-header {
-    width: 100%;
-    height: 6.5vw;
-  }
-
-  .kurs-header h1 {
-    font-family: 'Roboto Slab';
-    font-size: 3.8vw;
-    line-height: 101.38%;
-  }
-
-  .kurs-main {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-  }
-
-  .kurs-main-info {
-    width: 65vw;
-    height: 100%;
-  }
-
-  .kurs-main-info p {
-    font-size: 1.6vw;
-    line-height: 150%;
-  }
-
-  .kurs-img {
-    width: 21.80vw;
-    height: 21.87vw;
-  }
-
-  .kurs-bottom {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .kurs-bottom-info {
-    margin-top: 20px;
-    padding: 10px;
-  }
-
-  .kurs-bottom-info h3 {
-    font-size: 1.7vw;
-    line-height: 130%;
-  }
-
-  .kurs-bottom-info p {
-    margin-top: 5px;
-    min-width: 100px;
-    height: 2.7vw;
-    font-size: 1.25vw;
-    line-height: 130%;
-  }
-
-  .kurs-bottom-img {
-    display: flex;
-    width: 16.11vw;
-    height: 14.09vw;
-  }
-
-  /*Saleh Css*/
-
-
-
-  .third {
-    display: flex;
-  }
-
-  .format {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .format-text {
-    display: flex;
-    gap: 13vw;
-    margin-top: 4vw;
-    margin-bottom: 4vw;
-  }
-
-  .format-title {
-    width: 46vw;
-    font-weight: 700;
-    font-family: 'Roboto Slab';
-    font-size: 3.8vw;
-  }
-
-  .ft-content {
-    font-weight: 700;
-    font-family: 'Roboto';
-    font-size: 1.7vw;
-    color: #1e4681;
-  }
-
-  .ft-text {
-    width: 20vw;
-    font-family: 'Roboto';
-    font-size: 1.3vw;
-    width: 18vw;
-  }
-
-  .etap-title {
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 3.8vw;
-
-  }
-
-  .etap-list {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 1.6vw;
-    width: 45vw;
-  }
-
-
-
-
-  .kurs-container {
-    font-family: 'Roboto';
-    width: 100%;
-
-  }
-
-  .kurs-header {
-    width: 100%;
-    height: 6.5vw;
-  }
-
-  .kurs-header h1 {
-    font-family: 'Roboto Slab';
-    font-size: 3.8vw;
-    line-height: 101.38%;
-  }
-
-  .kurs-main {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-  }
-
-  .kurs-main-info {
-    width: 65vw;
-    height: 100%;
-  }
-
-  .kurs-main-info p {
-    font-size: 1.6vw;
-    line-height: 150%;
-  }
-
-  .kurs-img {
-    width: 21.80vw;
-    height: 21.87vw;
-  }
-
-  .kurs-bottom {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .kurs-bottom-info {
-    margin-top: 20px;
-    padding: 10px;
-  }
-
-  .kurs-bottom-info h3 {
-    font-size: 1.7vw;
-    line-height: 130%;
-  }
-
-  .kurs-bottom-info p {
-    margin-top: 5px;
-    min-width: 100px;
-    height: 2.7vw;
-    font-size: 1.25vw;
-    line-height: 130%;
-  }
-
-  .kurs-bottom-img {
-    display: flex;
-    width: 16.11vw;
-    height: 14.09vw;
-  }
-
-  /* frist murad */
-  .first {
+.first {
     display: flex;
     flex-direction: column;
     margin-left: 8vw;
-
   }
 
   .first-container {
     width: 100%;
-
-
+  
 
   }
 
@@ -762,9 +33,6 @@ footer {
     width: 7.8vw;
     height: 4.6vw;
     margin-top: 2.5vw;
-
-
-
   }
 
   .first-icons {
@@ -774,9 +42,6 @@ footer {
     font-family: Roboto;
     font-size: 1.4vw;
     margin-top: 5.7vw;
-
-
-
   }
 
   .first-icons img {
@@ -800,8 +65,6 @@ footer {
     font-family: Roboto Slab;
     font-weight: bold;
     margin-top: 0.9vw;
-
-
   }
 
   .first-info {
@@ -814,12 +77,9 @@ footer {
 
   }
 
-
-
   .produser-tablet {
     display: flex;
     gap: 13.7vw; 
-
   }
 
 
@@ -844,16 +104,215 @@ footer {
     margin-top: 9px;
     font-size: 1.4vw;
     font-family: Roboto;
-
-
   }
 
   .quote {
-
-    font-size: 1.7vw;
-
+ font-size: 1.7vw;
     font-family: Roboto Slab;
   }
+
+
+  /* !first section end */
+
+
+
+  /* second section  */
+
+  .kurs-wrapper {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+  }
+
+  .kurs-container {
+    font-family: 'Roboto';
+    width: 100%;
+    padding-top: 11.990vw;
+    padding-bottom: 12.350vw;
+  }
+
+  .kurs-header {
+    width: 100%;
+    height: 6.5vw;
+    padding-bottom: 5vw;
+  }
+
+  .kurs-header h1 {
+    font-family: 'Roboto Slab';
+    font-size: 3.8vw;
+    line-height: 101.38%;
+  }
+
+  .kurs-main {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .kurs-main-info {
+    width: 46.043vw;
+    height: 25.779vw;
+  }
+
+  .kurs-main-info p {
+    font-size: 1.6vw;
+    line-height: 150%;
+  }
+
+  .kurs-img {
+    width: 21.80vw;
+    height: 21.87vw;
+  }
+
+  .kurs-bottom {
+    display: flex;
+    
+  }
+
+  .kurs-bottom-info {
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 5vw;
+  }
+
+  .kurs-bottom-info h3 {
+    font-size: 2vw;
+    line-height: 130%;
+  }
+
+  .kurs-bottom-info p {
+    margin-top: 5px;
+    height: 2.638vw;    
+    font-size: 1.5vw;
+    line-height: 130%;
+  }
+
+  .kurs-bottom-img {
+    display: flex;
+    width: 16.11vw;
+    height: 14.09vw;
+  }
+  
+  /* !second section end */
+
+
+  /* third section  */
+
+  .third-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .third {
+    display: flex;
+    padding-bottom: 17.506vw;
+  }
+
+  .format-title {
+    width: 46%;
+    font-family: Robot Slab;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 101.38%;
+    color: #000;
+    margin-bottom: 6.115vw;
+  }
+
+  .format-text {
+    display: flex;
+    width: 68%;
+    gap: 46px;
+  }
+
+  .vebinar-content {
+    color: #1e4681;
+    width: 4.36vw;
+  }
+
+  /* !third section end */
+
+
+  /* fourth section */
+
+
+  .section-program>h2 {
+    width: 524.15px;
+    height: 53.86px;
+    font-size: 3.957vw;
+    line-height: 101.38%;
+    padding-bottom: 8.993vw;
+    padding-left: 30px;
+  }
+
+  .kurs-programs {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .section-program {
+    padding-bottom: 8.403vw;
+  }
+
+
+  .kurs-programs {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .kurs-programs-item {
+    width: 28%;
+    margin-bottom: 2.847vw;
+    margin-right:3.957vw;
+    height: 25vw;
+    background: #ffffff;
+    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+    border-radius: 2.083vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .kp-img {
+    width: 100%;
+    height: max-content;
+    border-radius: 2.083vw;
+  }
+
+  .kp-img > img {
+    width: 100%;
+  }
+
+  .kp-text {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6%;
+    padding-bottom: 10px;
+  }
+
+  .kp-text > h4 {
+    max-width: max-content;
+    height: 2.778vw;
+    font-size: 2.083vw;
+    line-height: 130%;
+  }
+
+  .kp-text > p {
+    padding-top: 3vw;
+    font-size: 1.736vw;
+    line-height: 130%;
+  }
+  /* !fourth section end */
+
+
+  /* fifth section */
 
   .section5{
     background-color: #efefef;
@@ -910,5 +369,189 @@ footer {
     width: 2.1vw;
     
 }
+
+
+
+.third {
+  display: flex;
+}
+
+.format {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14vw;
+}
+
+.format-text {
+  display: flex;
+  gap: 13vw;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+}
+
+.format-title {
+  width: 46vw;
+  font-weight: 700;
+  font-family: 'Roboto Slab';
+  font-size: 3.8vw;
+}
+
+.ft-content {
+  font-weight: 700;
+  font-family: 'Roboto';
+  font-size:2vw;
+  color: #1e4681;
+}
+
+.ft-text {
+  width: 20vw;
+  font-family: 'Roboto';
+  font-size: 1.6vw;
+  width: 18vw;
+}
+
+.etap-title {
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+  font-size: 3.8vw;
+  margin-bottom: 2.398vw;
+
+}
+
+.etap-list {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 2vw;
+  width: 45vw;
+}
+
+
+  /* !fifth section end */
+
+
+
+  /* sixth section */
+  .sixth {
+    background-color: #9dc9c8;
+    font-family: Roboto;
+    height: 53.957vw;
+  }
+
+
+  .sixth-container h1 {
+    width: 55.4vw;
+    margin-bottom: 3.6vw;
+    font-size: 3.8vw;
+    font-family: Roboto Slab;
+  }
+
+  .sixth-container {
+    padding-top: 12.350vw;
+    padding-left:8.393vw ;
+    padding-bottom: 11vw;
+  }
+
+  .fs-12 {
+    font-size: 1.7vw;
+  }
+
+  .six-down {
+    font-size: 5vw;
+
+  }
+
+  .six-content {
+    display: flex;
+    gap: 5vw;
+    margin-top: 5vw;
+  }
+
+  .w-140 {
+    width: 22vw;
+  }
+
+  .six-content .fs-12 {
+    margin-top: 1.1vw;
+  }
+
+  .six-right,
+  .six-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1vw;
+    width: 25vw;
+  }
+
+
+  /* !sixth section end */
+
+  /* seventh section  */
+  footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 27.083vw;
+    min-height: 260px;
+    font-size: 2.5vw;
+    position: relative;
+  }
+  .adress img {
+    width: 1.1vw;
+    height: 1.9vw;
+  }
+  .adress {
+    padding-top: 0.7vw;
+    display: flex;
+    padding-right: 7vw;
+    flex-direction: column;
+    font-size: 1.736vw;
+  }
+  .f-icons {
+    display: flex;
+  }
+
+  .f-icons > img {
+    height: 2vw;
+    width: 2vw;
+    margin-right: 20px;
+    margin-bottom: 1vw;
+  }
+
+  .icon {
+    padding-left: -10px;
+    display: flex;
+    padding-top: 1.19vw;
+  }
+
+  .icon > img {
+    height: 3vw;
+    width: 3vw;
+    padding-right: 1vw;
+  }
+
+  .author {
+    position: absolute;
+    bottom: 3vw;
+    margin-left: 8.4vw;
+    font-size: 1.25vw;
+  }
+  .logo-img {
+    width: 7.986vw;
+    height: 4.722vw;
+  }
+
+  .footer-section {
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8.4vw;
+    margin-right: 10vw;
+    margin-top: 3.35vw;
+  }
+  /* !seventh section end */
+
+
+
 
 }

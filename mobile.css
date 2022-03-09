@@ -14,81 +14,94 @@
     padding-right: 8vw;
   }
 
-  .section5 {
-    display: flex;
-    background-color: #efefef;
-    flex-direction: column;
-    padding-top: 10vw;
-    padding-bottom: 13vw;
-    padding-left: 8vw;
-  }
-
-  .section5-title {
-    width: 60vw;
-  }
-
-  .section5-title h1 {
-    font-family: Roboto Slab;
-    font-weight: 700;
-    color: #000;
-    font-size: 5vw;
-  }
-
-  .section5-content {
+  /* firts section */
+  .first {
     display: flex;
     flex-direction: column;
-    width: 81vw;
-    background-color: #fff;
-    box-shadow: 0.13vw 0.13vw 2.6vw rgba(0, 0, 0, 0.25);
-    border-radius: 3.73vw;
   }
 
-  .section5-txt {
+  .first-logo img {
+    width: 14vw;
+    height: 8.2vw;
+    margin-top: 10vw;
+  }
+
+  .first-icons {
+    display: flex;
+    width: 100%;
+    gap: 15px;
     font-family: Roboto;
+    font-size: 2.6vw;
+    margin-top: 35px;
+  }
+
+  .first-icons img {
+    width: 2.6vw;
+  }
+
+  .online-course,
+  .date,
+  .hours {
+    display: flex;
+  }
+
+  .first-icons .image {
+    margin-right: 1.1vw;
+  }
+
+  .first-h1 {
+    width: 77vw;
+    font-size: 10vw;
+    font-family: Roboto Slab;
+    font-weight: bold;
+    margin-top: 2.3vw;
+  }
+
+  .first-info {
+    width: 55vw;
+    font-family: Roboto;
+    font-size: 2.7vw;
     font-weight: 400;
-    font-size: 2.8vw;
-    color: #000;
-    padding: 5vw 5.6vw 0 5.6vw;
+    margin-top: 4vw;
+    line-height: 150%;
   }
 
-  .section5-down {
-    display: flex;
-    align-items: center;
-    padding-left: 2.5vw;
+  .produser-div {
+    position: relative;
+    left: 46vw;
+    height: 47vw;
+    width: 39vw;
   }
 
-  .ekaterina-img {
-    width: 30vw;
-    height: 25vw;
-    background-image: url(./img-saleh/ekaterina.svg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding-top: 20px;
+  .produser-div img {
+    height: 100%;
+    width: 38vw;
   }
 
-  .section5-aside {
-    display: flex;
-    flex-direction: column;
+  .background-blue {
+    background-color: #1e4681;
+    width: 60vw;
+    color: white;
+    margin-left: 3px;
+    margin-top: 51px;
+    padding: 2.2vw 3vw 6.8vw 3vw;
   }
 
-  .section5-asidetxt {
-    font-weight: 700;
-    font-size: 3.7vw;
-    width: 43vw;
+  .andrei {
+    margin-left: 25vw;
+    width: 26vw;
+    margin-top: 15px;
+    font-size: 2.7vw;
+    font-family: Roboto;
   }
 
-  .section5-aside {
-    padding: 10vw;
-    padding-left: 2vw;
+  .quote {
+    font-size: 2.6vw;
   }
+  /* !first section end */
 
-  .section5-fb {
-    width: 6vw;
-    height: 6vw;
-    padding-top: 10px;
-  }
+  /* second section */
 
-  /* niyaz 2nd section */
   .kurs-wrapper {
     display: flex;
     justify-content: center;
@@ -171,7 +184,53 @@
     height: 20vw;
   }
 
-  /* AYSEL FOURHT SECTION */
+  /* !second section end */
+
+  /* third section */
+  /* saleh css */
+
+  .third-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .third {
+    display: flex;
+  }
+
+  .format {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .format-title {
+    font-size: 5vw;
+    font-weight: 900;
+  }
+
+  .format-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .etap-title {
+    font-family: Roboto Slab;
+    font-weight: 700;
+    font-size: 6.933vw;
+  }
+
+  .etap-list {
+    padding-top: 3vw;
+    width: 100%;
+    font-weight: 400;
+    font-size: 3.467vw;
+    margin: 0 2% 0 5%;
+  }
+
+  /* !third section end */
+
+  /* fourth section */
 
   .section-program {
     padding-top: 5vw;
@@ -236,191 +295,86 @@
     line-height: 130%;
   }
 
+  /* !fourth section end */
 
-
-  footer {
-    background-color: black;
-    color: white;
+  /* fifth section */
+  .section5 {
     display: flex;
-    justify-content: space-between;
+    background-color: #efefef;
     flex-direction: column;
-    height: 32vw;
-    min-height: 260px;
-    padding-top: 9vw;
-    padding-bottom: 10vw;
-    padding-left: 46px;
-    font-size: 2.5vw;
-    position: relative;
+    padding-top: 10vw;
+    padding-bottom: 13vw;
+    padding-left: 8vw;
   }
 
-  .logo {
-    padding-bottom: 30px;
+  .section5-title {
+    width: 60vw;
   }
 
-  .adress {
-    padding-bottom: 30px;
-  }
-
-.adress >p >img{
-  height: 4vw;
-  display: inline-block;
-}
-
-  .icon {
-    display: flex;
-    padding-bottom: 3vw;
-  }
-
-  .icon > img {
-    padding-right: 12px;
-    height: 4vw;
-  }
-
-  .author {
-    position: absolute;
-    bottom: 20px;
-  }
-
-  .footer-section {
-    height: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-
-  .pk-text {
-    display: flex;
-    flex-direction: column;
-    padding: 2px 3px;
-  }
-
-  /* saleh css */
-
-  .third-container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .third {
-    display: flex;
-  }
-
-  .format {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .format-title {
-    font-size: 5vw;
-    font-weight: 900;
-  }
-
-  .format-text {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .etap-title {
+  .section5-title h1 {
     font-family: Roboto Slab;
     font-weight: 700;
-    font-size: 6.933vw;
+    color: #000;
+    font-size: 5vw;
   }
 
-  .etap-list {
-    padding-top: 3vw;
-    width: 100%;
+  .section5-content {
+    display: flex;
+    flex-direction: column;
+    width: 81vw;
+    background-color: #fff;
+    box-shadow: 0.13vw 0.13vw 2.6vw rgba(0, 0, 0, 0.25);
+    border-radius: 3.73vw;
+  }
+
+  .section5-txt {
+    font-family: Roboto;
     font-weight: 400;
-    font-size: 3.467vw;
-    margin: 0 2% 0 5%;
+    font-size: 2.8vw;
+    color: #000;
+    padding: 5vw 5.6vw 0 5.6vw;
   }
 
-  .first {
+  .section5-down {
+    display: flex;
+    align-items: center;
+    padding-left: 2.5vw;
+  }
+
+  .ekaterina-img {
+    width: 30vw;
+    height: 25vw;
+    background-image: url(./img-saleh/ekaterina.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 20px;
+  }
+
+  .section5-aside {
     display: flex;
     flex-direction: column;
   }
 
-  .first-logo img {
-    width: 14vw;
-    height: 8.2vw;
-    margin-top: 10vw;
+  .section5-asidetxt {
+    font-weight: 700;
+    font-size: 3.7vw;
+    width: 43vw;
   }
 
-  .first-icons {
-    display: flex;
-    width: 100%;
-    gap: 15px;
-    font-family: Roboto;
-    font-size: 2.6vw;
-    margin-top: 35px;
+  .section5-aside {
+    padding: 10vw;
+    padding-left: 2vw;
   }
 
-  .first-icons img {
-    width: 2.6vw;
+  .section5-fb {
+    width: 6vw;
+    height: 6vw;
+    padding-top: 10px;
   }
 
-  .online-course,
-  .date,
-  .hours {
-    display: flex;
-  }
+  /* !fifth section end */
 
-  .first-icons .image {
-    margin-right: 1.1vw;
-  }
-
-  .first-h1 {
-    width: 77vw;
-    font-size: 10vw;
-    font-family: Roboto Slab;
-    font-weight: bold;
-    margin-top: 2.3vw;
-  }
-
-  .first-info {
-    width: 55vw;
-    font-family: Roboto;
-    font-size: 2.7vw;
-    font-weight: 400;
-    margin-top: 4vw;
-    line-height: 150%;
-  }
-
-  .produser-div {
-    position: relative;
-    left: 46vw;
-    height: 47vw;
-    width: 39vw;
-   
-  }
-
-  .produser-div img {
-    height: 100%;
-    width: 38vw;
-  }
-
-  .background-blue {
-    background-color: #1e4681;
-    width: 60vw;
-    color: white;
-    margin-left: 3px;
-    margin-top: 51px;
-    padding: 2.2vw 3vw 6.8vw 3vw;
-  }
-
-  .andrei {
-    margin-left: 25vw;
-    width: 26vw;
-    margin-top: 15px;
-    font-size: 2.7vw;
-    font-family: Roboto;
-  }
-
-  .quote {
-    font-size: 2.6vw;
-
-    font-family: Roboto Slab;
-  }
+  /* sixth section */
 
   .sixth {
     background-color: #9dc9c8;
@@ -470,4 +424,59 @@
     flex-direction: column;
     gap: 1.1vw;
   }
+
+  /* !sixth section end */
+
+  /* seventh section */
+  footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 32vw;
+    min-height: 260px;
+    padding-top: 9vw;
+    padding-bottom: 10vw;
+    padding-left: 46px;
+    font-size: 2.5vw;
+    position: relative;
+  }
+
+  .logo {
+    padding-bottom: 30px;
+  }
+
+  .adress {
+    padding-bottom: 30px;
+  }
+
+  .adress > p > img {
+    height: 4vw;
+    display: inline-block;
+  }
+
+  .icon {
+    display: flex;
+    padding-bottom: 3vw;
+  }
+
+  .icon > img {
+    padding-right: 12px;
+    height: 4vw;
+  }
+
+  .author {
+    position: absolute;
+    bottom: 20px;
+  }
+
+  .footer-section {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  /* !seventh section end */
 }
