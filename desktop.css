@@ -201,7 +201,7 @@
         background-color: #fff;
         height: 57vh;
         border-radius: 2vw;
-        box-shadow: 7vw 7vw 138vw rgba(0, 0, 0, 0.25);
+        box-shadow: 7vw 7vw 13vw rgba(0,0,0,0.25);
         margin: 2.36vw 36vw 7.7vw 8.75vw;
         padding: 4vw 8vw 2vw 4vw;
     }
@@ -244,6 +244,53 @@
     .section5-fb {
         width: 2.2vw;
         height: 3.9vh;
+    }
+
+
+
+    .third{
+        display: flex;
+    }
+    .format{
+        display: flex;
+        flex-direction: column;
+    }
+    .format-text{
+        display: flex;
+        gap: 13vw;
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+    }
+    .format-title{
+        width: 46vw;
+        font-weight: 700;
+        font-family: 'Roboto Slab';
+        font-size: 3.8vw;
+    }
+    .ft-content{
+        font-weight: 700;
+        font-family: 'Roboto';
+        font-size: 1.7vw;
+        color: #1e4681;
+    }
+    .ft-text{
+        width: 15vw;
+        font-family: 'Roboto';
+        font-size: 1.6vw;
+        width: 18vw;
+    }
+
+    .etap-title{
+        font-family: 'Roboto Slab';
+        font-weight: 700;
+        font-size: 3.8vw;
+        
+    }
+    .etap-list{
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 1.6vw;
+        width: 45vw;
     }
 
     /* niyaz */
