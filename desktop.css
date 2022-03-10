@@ -270,7 +270,7 @@
     margin-right: 2.569vw;
     height: 25vw;
     background: #ffffff;
-    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+    box-shadow: 0.7vw 0.7vw 1vw rgba(0, 0, 0, 0.25);
     border-radius: 2.083vw;
     display: flex;
     flex-direction: column;
@@ -290,8 +290,8 @@
     height: 50%;
     display: flex;
     flex-direction: column;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 1.389vw;
+    padding-right: 1.389vw;
     padding-top: 6%;
     padding-bottom: 10px;
   }
