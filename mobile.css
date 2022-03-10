@@ -269,11 +269,12 @@
     display: flex;
     flex-direction: column;
     width: 49.333vw;
-    height: 40.533vw;
+    
     background: #ffffff;
     box-shadow: 0.133vw 0.133vw 1.8vw rgba(0, 0, 0, 0.25);
     border-radius: 4vw;
     margin-bottom: 6.5vw;
+    padding-bottom: 4vw;
   }
 
   .kp-img {
@@ -447,13 +448,13 @@
     min-height: 360px;
     padding-top: 9vw;
     padding-bottom: 10vw;
-    padding-left: 46px;
+    padding-left:7vw;
     font-size: 2.5vw;
     position: relative;
   }
 
   .logo-img {
-    width: 16vw;
+ 
     height: 10vw;
     padding-bottom: 3vw;
   }
@@ -490,13 +491,15 @@
   }
   .f-icons {
     display: flex;
+    align-items: center;
   }
 
   .f-icons > img {
-    height: 2vw;
-    width: 2vw;
+    height: 3vw;
+    width: 3vw;
     margin-right: 20px;
     margin-bottom: 1vw;
+    align-items: center;
   }
   /* !seventh section end */
 }
