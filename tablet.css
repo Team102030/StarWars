@@ -17,7 +17,7 @@
   .first {
     display: flex;
     flex-direction: column;
-    margin-left: 8vw;
+  
   }
 
   .first-container {
@@ -85,7 +85,7 @@
     width: 34vw;
     color: white;
     margin-top: 9vw;
-    margin-left: 27vw;
+    margin-left: 24vw;
     padding: 1.3vw 1.5vw 4vw 1.3vw;
   }
 

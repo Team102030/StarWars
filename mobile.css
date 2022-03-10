@@ -277,7 +277,7 @@
     width: 49.333vw;
     height: 40.533vw;
     background: #ffffff;
-    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+    box-shadow: 0.133vw 0.133vw 1.8vw rgba(0, 0, 0, 0.25);
     border-radius: 4vw;
     margin-bottom: 6.5vw;
   }
@@ -454,7 +454,7 @@
     justify-content: space-between;
     flex-direction: column;
     height: 66.933vw;
-    min-height: 260px;
+    min-height: 360px;
     padding-top: 9vw;
     padding-bottom: 10vw;
     padding-left: 46px;
@@ -462,9 +462,12 @@
     position: relative;
   }
 
-  .logo {
-    padding-bottom: 30px;
-  }
+
+.logo-img{
+  width:16vw ;
+  height:10vw ;   
+  padding-bottom: 3vw;
+}
 
   .adress {
     padding-bottom: 30px;
