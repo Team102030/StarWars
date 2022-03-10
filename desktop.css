@@ -114,8 +114,9 @@
   }
   /* !first section end */
 
-  /* second section  */
 
+
+  /* second section  */
   .kurs-wrapper {
     display: flex;
     justify-content: center;
@@ -181,11 +182,11 @@
     width: 16.11vw;
     height: 14.09vw;
   }
-
   /* !second section end */
 
-  /* third section  */
 
+
+  /* third section  */
   .third {
     display: flex;
     padding-top: 12.361vw;
@@ -240,8 +241,8 @@
     width: 46.25vw;
     margin-bottom: 17.083vw;
   }
-
   /* !third section end */
+
 
   /* fourth section */
   .section-program {
@@ -310,8 +311,8 @@
   }
   /* !fourth section end */
 
-  /* fifth section */
 
+  /* fifth section */
   .section5 {
     display: flex;
     background-color: #efefef;
@@ -341,7 +342,7 @@
     background-color: #fff;
     box-shadow: 0.13vw 0.13vw 2.6vw rgba(0, 0, 0, 0.25);
     border-radius: 3.73vw;
-   margin-left: 10.417vw;
+    margin-left: 10.417vw;
   }
 
   .section5-txt {
@@ -387,11 +388,11 @@
     height: 4vw;
     padding-top: 10px;
   }
-
   /* !fifth section end */
 
-  /* sixth section  */
 
+
+  /* sixth section  */
   .sixth {
     background-color: #9dc9c8;
 
@@ -441,6 +442,8 @@
   }
   /*! sixth section end */
 
+
+
   /* seventh section */
   footer {
     background-color: black;
@@ -485,7 +488,6 @@
     width: 3vw;
     padding-right: 1vw;
   }
-
   .author {
     position: absolute;
     bottom: 3vw;
@@ -505,6 +507,6 @@
     margin-right: 10vw;
     margin-top: 3.35vw;
   }
-
   /* !seventh section end */
+  
 }

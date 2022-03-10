@@ -13,11 +13,9 @@
   }
 
   /* first section  */
-
   .first {
     display: flex;
     flex-direction: column;
-  
   }
 
   .first-container {
@@ -101,11 +99,9 @@
     font-size: 1.7vw;
     font-family: Roboto Slab;
   }
-
   /* !first section end */
 
   /* second section  */
-
   .kurs-wrapper {
     display: flex;
     justify-content: center;
@@ -181,11 +177,9 @@
     width: 16.11vw;
     height: 14.09vw;
   }
-
   /* !second section end */
 
   /* third section  */
-
   .third-container {
     display: flex;
     flex-direction: column;
@@ -216,11 +210,9 @@
     color: #1e4681;
     width: 4.36vw;
   }
-
   /* !third section end */
 
   /* fourth section */
-
   .section-program > h2 {
     width: 524.15px;
     height: 53.86px;
@@ -253,7 +245,7 @@
     margin-right: 3.957vw;
     height: 25vw;
     background: #ffffff;
-    box-shadow: 0.057vw 0.057vw  0.795vw rgba(0, 0, 0, 0.25);
+    box-shadow: 0.057vw 0.057vw 0.795vw rgba(0, 0, 0, 0.25);
     border-radius: 2.083vw;
     display: flex;
     flex-direction: column;
@@ -294,7 +286,6 @@
   /* !fourth section end */
 
   /* fifth section */
-
   .section5 {
     background-color: #efefef;
     display: flex;
@@ -399,7 +390,6 @@
     font-size: 2vw;
     width: 45vw;
   }
-
   /* !fifth section end */
 
   /* sixth section */
@@ -451,7 +441,6 @@
     gap: 1.1vw;
     width: 25vw;
   }
-
   /* !sixth section end */
 
   /* seventh section  */

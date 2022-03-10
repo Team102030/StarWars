@@ -100,7 +100,6 @@
   /* !first section end */
 
   /* second section */
-
   .kurs-wrapper {
     display: flex;
     justify-content: center;
@@ -183,12 +182,9 @@
     width: 22vw;
     height: 20vw;
   }
-
   /* !second section end */
 
   /* third section */
-  /* saleh css */
-
   .third-container {
     display: flex;
     flex-direction: column;
@@ -245,11 +241,9 @@
     padding-bottom: 6.667vw;
     width: 44vw;
   }
-
   /* !third section end */
 
   /* fourth section */
-
   .section-program {
     padding-top: 5vw;
   }
@@ -312,7 +306,6 @@
     font-size: 3.2vw;
     line-height: 130%;
   }
-
   /* !fourth section end */
 
   /* fifth section */
@@ -390,11 +383,9 @@
     height: 6vw;
     padding-top: 10px;
   }
-
   /* !fifth section end */
 
   /* sixth section */
-
   .sixth {
     background-color: #9dc9c8;
     font-family: Roboto;
@@ -443,7 +434,6 @@
     flex-direction: column;
     gap: 1.1vw;
   }
-
   /* !sixth section end */
 
   /* seventh section */
@@ -462,12 +452,11 @@
     position: relative;
   }
 
-
-.logo-img{
-  width:16vw ;
-  height:10vw ;   
-  padding-bottom: 3vw;
-}
+  .logo-img {
+    width: 16vw;
+    height: 10vw;
+    padding-bottom: 3vw;
+  }
 
   .adress {
     padding-bottom: 30px;
@@ -509,6 +498,5 @@
     margin-right: 20px;
     margin-bottom: 1vw;
   }
-
   /* !seventh section end */
 }
